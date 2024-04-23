@@ -6,3 +6,13 @@ Content-Type: application/json
     "details": "Um evento para quem é apaixonado por programação",
     "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/448c9ad3-e026-4712-9cf9-1f5de5e6682e/attendees
+Content-Type: application/json
+
+{
+    "name": "Guilherme Mendes",
+    "email": "guilherme.mendes@gmail.com"
+}
