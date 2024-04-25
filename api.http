@@ -16,3 +16,12 @@ Content-Type: application/json
     "name": "Guilherme Mendes",
     "email": "guilherme.mendes@gmail.com"
 }
+
+
+###
+
+GET http://localhost:3333/events/448c9ad3-e026-4712-9cf9-1f5de5e6682e
+
+###
+
+GET http://localhost:3333/attendees/1/badge
