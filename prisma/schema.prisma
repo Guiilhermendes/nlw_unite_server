@@ -42,3 +42,12 @@ model CheckIn {
 
   @@map("check_ins")
 }
+
+model Administrator {
+  id              String @id @default(uuid())
+  email           String
+  password        String
+  confirmPassword String
+
+  @@map("administrators")
+}
